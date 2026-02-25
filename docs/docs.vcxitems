@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{0b7e68ed-9f00-4512-b7d6-db5d89277a9c}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)engineering\architecture\dependency_rules.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_core_foundation.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_glossary.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_runtime_platform.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\governance\engineering_governance.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines_baseline.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard_baseline.md" />
+  </ItemGroup>
+</Project>
