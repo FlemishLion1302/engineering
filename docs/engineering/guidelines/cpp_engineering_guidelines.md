@@ -1,41 +1,21 @@
-## C++ Engineering Guidelines
+# C++ Engineering Guidelines
 
-### Authority Model
+## Authority Model
 
-This document defines the authority and amendment model for the C++ Engineering Guidelines.
+This document operates within the Engineering Governance Framework:
 
-The effective Guidelines consist of:
+- `docs/engineering/governance/engineering_governance.md`
 
-1. `cpp_engineering_guidelines_baseline.md`
-2. All non-deprecated delta documents located in the `deltas/` directory adjacent to this file.
+Change mechanics (delta lifecycle, precedence, rebase policy) are defined in:
 
-Delta documents:
+- `docs/engineering/governance/servicing_and_maintenance_strategy.md`
 
-- Are versioned.
-- Declare an operation type (`ADD`, `AMEND`, `REPLACE`, `DELETE`).
-- Explicitly declare their target section(s).
-- Supersede the baseline where they apply.
-- May elevate, clarify, or refine guidance strength (e.g., RECOMMENDED → SHOULD).
+This document uses the baseline + deltas authority model defined in the Servicing and Maintenance Strategy.
 
-If multiple deltas affect the same target, the delta with the higher version prevails.
+Effective content consists of:
 
-The `deltas/` directory constitutes the complete amendment history.
-
-**Rebase:** 2026-02-25-v2.0.0 consolidated prior deltas into the baseline. Post-rebase deltas live in `deltas/`.
-
-### Governance Framework Reference
-
-These Guidelines operate within the repository’s Engineering Governance Framework.
-
-See:
-
-```
-docs/engineering/engineering_governance.md
-```
-
-The Governance Framework defines document immutability, enforcement posture, and cross-document authority relationships.
-
-In case of conflict, the C++ Coding Standard prevails in accordance with the Governance Framework.
+- `cpp_engineering_guidelines_baseline.md`
+- Accepted non-deprecated deltas under `deltas/`
 
 ------
 
@@ -94,21 +74,6 @@ Unlike the Coding Standard:
 
 - CI does not reject builds for guideline deviation.
 - Enforcement is architectural and review-driven.
-
-------
-
-# 5. Directory Structure
-
-Recommended layout:
-
-```
-docs/
-    cpp_engineering_guidelines/
-        cpp_engineering_guidelines.md              (authority bootstrap)
-        cpp_engineering_guidelines_baseline.md
-        deltas/
-            2026-xx-xx-v1.1.0-some-amendment.md
-```
 
 ------
 

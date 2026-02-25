@@ -167,7 +167,25 @@ Tags represent governance release points.
 
 ------
 
-## 11. Stability Principle
+## 11. Standard Authority Model (Baseline + Deltas)
+
+For any governed document that uses the baseline + deltas model, the effective content consists of:
+
+1. The current baseline document.
+2. All **Accepted** and **non-deprecated** deltas in the associated `deltas/` directory.
+
+Deltas:
+
+- Declare an operation type (`ADD`, `AMEND`, `REPLACE`, `DELETE`).
+- Declare target section(s).
+- Are applied in ascending version order.
+- If multiple deltas target the same section, the higher version prevails.
+
+`Proposed` deltas are not effective. `Deprecated` deltas are not effective.
+
+---
+
+## 12. Stability Principle
 
 Governance documents evolve deliberately.
 

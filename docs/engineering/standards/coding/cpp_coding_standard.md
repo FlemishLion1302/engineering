@@ -1,21 +1,16 @@
-# C++ Coding Standard
-
 ## Authority Model
 
-This document defines the authority and amendment model for the C++ Coding Standard.
+This document operates within the Engineering Governance Framework:
 
-The effective standard consists of:
+- `docs/engineering/governance/engineering_governance.md`
 
-1. `cpp_coding_standard_baseline.md`
-2. All non-deprecated delta documents located in the `deltas/` directory adjacent to this file.
+Change mechanics (delta lifecycle, precedence, rebase policy) are defined in:
 
-Delta documents:
+- `docs/engineering/governance/servicing_and_maintenance_strategy.md`
 
-- Are versioned.
-- Declare an operation type (ADD, AMEND, REPLACE, DELETE).
-- Explicitly declare their target section(s).
-- Supersede the baseline where they apply.
+This document uses the baseline + deltas authority model defined in the Servicing and Maintenance Strategy.
 
-If multiple deltas affect the same target, the delta with the higher version prevails.
+Effective content consists of:
 
-The `deltas/` directory constitutes the complete amendment history.
+- `cpp_coding_standard_baseline.md`
+- Accepted non-deprecated deltas under `deltas/`

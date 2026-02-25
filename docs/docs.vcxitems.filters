@@ -30,9 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)engineering\governance\engineering_governance.md">
-      <Filter>engineering\governance</Filter>
-    </None>
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard.md">
       <Filter>engineering\standards\coding</Filter>
     </None>
@@ -65,6 +62,9 @@
     </None>
     <None Include="$(MSBuildThisFileDirectory)engineering\governance\servicing_and_maintenance_strategy.md">
       <Filter>engineering\governance</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)engineering\governance\engineering_governance.md">
+      <Filter>engineering\architecture</Filter>
     </None>
   </ItemGroup>
 </Project>
