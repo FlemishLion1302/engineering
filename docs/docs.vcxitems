@@ -19,9 +19,12 @@
     <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_glossary.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_runtime_platform.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\governance\engineering_governance.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\governance\servicing_and_maintenance_strategy.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines_baseline.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\deltas\TEMPLATE.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard_baseline.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\deltas\TEMPLATE.md" />
   </ItemGroup>
 </Project>

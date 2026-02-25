@@ -57,5 +57,14 @@
     <None Include="$(MSBuildThisFileDirectory)engineering\architecture\taxonomy\taxonomy_runtime_platform.md">
       <Filter>engineering\architecture\taxonomy</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\deltas\TEMPLATE.md">
+      <Filter>engineering\standards\coding\deltas</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\deltas\TEMPLATE.md">
+      <Filter>engineering\guidelines\deltas</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)engineering\governance\servicing_and_maintenance_strategy.md">
+      <Filter>engineering\governance</Filter>
+    </None>
   </ItemGroup>
 </Project>
