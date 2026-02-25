@@ -23,6 +23,7 @@
     <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\cpp_engineering_guidelines_baseline.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\guidelines\deltas\TEMPLATE.md" />
+    <None Include="$(MSBuildThisFileDirectory)engineering\README.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\cpp_coding_standard_baseline.md" />
     <None Include="$(MSBuildThisFileDirectory)engineering\standards\coding\deltas\TEMPLATE.md" />

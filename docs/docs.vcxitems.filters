@@ -66,5 +66,8 @@
     <None Include="$(MSBuildThisFileDirectory)engineering\governance\engineering_governance.md">
       <Filter>engineering\architecture</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)engineering\README.md">
+      <Filter>engineering</Filter>
+    </None>
   </ItemGroup>
 </Project>
